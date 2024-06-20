@@ -1,0 +1,35 @@
+.container {
+    margin: 20px;
+    height: 200;
+    display: flex;
+    border: 1px solid black; 
+    padding: 20;
+    width: 400px;
+}
+
+.red-box {
+    background-color: orange;
+}
+
+
+.blue-box {
+    background-color: rgb(197, 62, 84);
+    position:absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.green-box {
+    background-color: rgb(107, 46, 107);
+    position: absolute;
+    top: 20px;
+    left: 140px;
+}
+
+.red-box, .blue-box,  .green-box {
+    width: 100px;
+    height: 100px;
+    margin: 20px
+}
+
+
